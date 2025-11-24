@@ -41,7 +41,7 @@ maze = np.array([
 game = Maze(maze)
 
 # only show the maze
-if test == Test.SHOW_MAZE_ONLY:
+ test == Test.SHOW_MAZE_ONLY:
     game.render(Render.MOVES)
     game.reset()
 
