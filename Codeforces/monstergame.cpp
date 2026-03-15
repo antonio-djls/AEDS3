@@ -9,14 +9,12 @@ int main() {
   cin.tie(NULL);
   ll t = 0;
   cin >> t;
-
   while (t--) {
 
     ll size = 0;
     cin >> size;
     vector<ll> espadas(size);
     vector<ll> levels(size);
-
     for (int i = 0; i < size; i++)
       cin >> espadas[i];
     for (int i = 0; i < size; i++)
@@ -32,7 +30,6 @@ int main() {
       sum[i] = sum[i - 1] + levels[i];
     }
     ll res = 0;
-
     for (int k = 0; k < size; k++) {
       ll x = espadas[k];
       ll qtd = size - k; // pega o intervalo
