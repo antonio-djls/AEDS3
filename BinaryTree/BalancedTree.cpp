@@ -27,6 +27,5 @@ int main() {
   arvore.root.secundario->principal->valor = 13;
   arvore.root.secundario->secundario->valor = 19;
   arvore.root.secundario->principal->valor = 18;
-
   return 0;
 }
