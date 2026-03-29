@@ -2,5 +2,5 @@
 
 ![Capa](front.png)
 
-Repositorio utilizado para armazenar codigos da disciplina de **Algoritmos e Estruturas de Dados III**.
+Repositório utilizado para armazenar codigos da disciplina de **Algoritmos e Estruturas de Dados III**
 

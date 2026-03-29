@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 #define ll long long
 
 using namespace std;
@@ -52,6 +52,5 @@ int main() {
     max_time = max(max_time, count);
     cout << max_time << "\n";
   }
-
   return 0;
 }

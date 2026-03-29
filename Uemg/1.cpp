@@ -20,7 +20,6 @@ class tree {
     topo->left = nullptr;
   }
 };
-
 int main() {
   no  n1;
   return 0; }
