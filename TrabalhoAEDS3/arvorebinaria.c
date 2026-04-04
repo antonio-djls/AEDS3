@@ -9,8 +9,6 @@ typedef  struct no{
 }no;
 
 
-
-
 void inserir(no *root, int x){
   if(root->valor == -1){
     root->valor = x;
@@ -65,7 +63,7 @@ void buscar(no *root, int objetivo){
         free(aux);
         break;
       }
-    }else{\
+    }else{
       if(aux->esquerda != NULL){
         aux = aux->esquerda;
       }else{
@@ -87,7 +85,6 @@ void mostrar(no *root){
     aux->esquerda->valor = a_mostrar;
   }
 }
-
 
 
 int main(){
@@ -112,6 +109,6 @@ int main(){
       case 5:
         return 0;
     }
-  }
+  } 
   return 0;
 }
