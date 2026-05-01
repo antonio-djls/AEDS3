@@ -42,6 +42,7 @@
 
 //     return 0;
 // }
+
 #include <algorithm>
 #include <iostream>
 #include <queue>
@@ -61,7 +62,6 @@ vector<int> jobSequencing(vector<int> &deadline, vector<int> &profit) {
   // in ascending order
   sort(jobs.begin(), jobs.end());
   priority_queue<int, vector<int>, greater<int>> pq;
-
   for (int i = 0; i < jobs.size(); i++) {
 
     // if job can be scheduled within its deadline
@@ -74,7 +74,6 @@ vector<int> jobSequencing(vector<int> &deadline, vector<int> &profit) {
       pq.push(jobs[i].second);
     }
   }
-
   while (!pq.empty()) {
     ans[1] += pq.top();
     pq.pop();
